@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: assets/img/emran.jpg
+  image: emran.jpg
   image_circular: false # crops the image to make it circular
 
 news: true
@@ -49,7 +49,6 @@ On a personal note, I enjoy food & drink, art, music, and Brazillian jiu-jitsu. 
         {% include figure.liquid loading="eager" path="assets/img/8747_720.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5375_720.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -58,7 +57,6 @@ On a personal note, I enjoy food & drink, art, music, and Brazillian jiu-jitsu. 
         {% include figure.liquid loading="eager" path="assets/img/15361_720.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 <div class="caption">
     Some great memories from throughout the years.
 </div>
