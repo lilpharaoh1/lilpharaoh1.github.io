@@ -2,33 +2,47 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
+news: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Emran Yasser Moustafa and I am a **1st year PhD student** at the University of Edinburgh. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm interested in the decision-making and planning of autonomous robotics in complex environments. My PhD research focuses on the development of learning-enabled shared autonomy for assistive driving applications. Currently I'm working on policy synthesis for human-in-the-loop systems in urban driving scenarios with numerous agent-agent interactions, such as driving in cities like Edinburgh! My PhD is associated with the [Centre for AI in Assistive Autonomy](https://www.research.ed.ac.uk/en/persons/ram-ramamoorthy), supervised by [Prof. Subramanian Ramamoorthy](https://www.research.ed.ac.uk/en/persons/ram-ramamoorthy).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to my doctorate research, I received First Class Honours in my BEng and MEng Electonric & Computer Engineering degrees at **Trinity College Dublin**. I completed my Master's thesis with [Prof. Ivana Dusparic](https://www.tcd.ie/scss/people/academic-staff/duspari/#id_sixth), for which I received the Collen Award for best thesis in Computer Engineering. I completed my Bachelors thesis with [Prof. Julian Kooij](https://jkooij.github.io/) during a study-abroad year at **TU Delft**. I was forunate enough to received the [Laidlaw](https://laidlawfoundation.com/) and [Kinsella](https://www.tcd.ie/media/tcd/engineering/pdfs/EricKinsella_ScholarshipApplication_Autmn2024-v2.pdf) scholarships which funded my studies throughout university. I graduated with an honourary Gold Medal for my academic performance at Trinity College Dublin.  
+
+Outside of studying, I was a member of [Formula Trinity](https://www.formulatrinity.ie/about-autonomous/) for many years and had the oppurtunity to take part in the F1Tenth (2021) Formula Student UK (2022, 2023). During my time in FT I served as state-estimation lead as well as the captain of the driverless team.  Over the years we received many awards, and I was nominated for the Craig Dawson award (MVP) by my team in 2022. Asisdes from Formula Student, I worked a number of research internships in Trinity College Dublin, FlyingLabs Madrid and TU Delft. I also founded my own robotics community-building non-profit, RacingAI, which hosted robotics events around Ireland for a year-and-a-half.
+
+On a personal note, I enjoy food & drink, art, music, and Brazillian jiu-jitsu. I also love board games, and am building a small indie board game studio based in Dublin (currently in stealth mode). Feel free to get in touch!
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eva.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/edan.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/justin.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mars.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="caption">
+    Some great memories from throughout the years.
+</div>
+
