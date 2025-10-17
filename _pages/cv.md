@@ -5,7 +5,4 @@ title: cv
 nav: true
 nav_order: 2
 cv_pdf: emran_yasser_moustafa_cv.pdf # you can also use external links here
-description: Download my CV here ->
-toc:
-  sidebar: left
 ---
