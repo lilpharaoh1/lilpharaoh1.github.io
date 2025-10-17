@@ -54,3 +54,5 @@ On a personal note, I enjoy food and drink, art, music, and Brazilian jiu-jitsu.
     Some great memories from over the years.
 </div>
 
+{% include news.html %}
+
