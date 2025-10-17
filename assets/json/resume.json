@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Emran Yasser Moustafa",
-    "label": "PhD Student",
+    "label": "PhD Student @ University of Edinburgh",
     "image": "",
     "email": "e.y.moustafa@sms.ed.ac.uk",
     "summary": "Aspiring roboticist passionate about reinforcement learning and autonomous systems, with academic and leadership experience across Europe.",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Trinity College Dublin",
-      "position": "ResearchIntern",
+      "position": "Research Intern",
       "startDate": "2022-07",
       "endDate": "2022-09",
       "summary": "Worked on FPGA-based perception for autonomous driving."
@@ -57,32 +57,28 @@
   ],
   "education": [
     {
-      "name": "University of Edinburgh",
-      "position": "PhD Student | Robotics and Autonomous Systems",
-      "url": "https://www.edinburgh-robotics.org/",
-      "startDate": "2025-09",
-      "endDate": "",
+      "institution": "University of Edinburgh",
+      "location": "Scotland",
+      "area": "PhD — Informatics",
+      "startDate": "2025",
+      "endDate": "2029",
       "summary": "PhD focused on shared control of autonomous systems.",
-      "highlights": ["Reinforcement Learning", "Planning & Control", "Autonomous Systems"]
+      "courses": ["Reinforcement Learning", "Planning & Control", "Human-in-the-Loop"]
     },
     {
       "institution": "Trinity College Dublin",
       "location": "Ireland",
-      "area": "BEng (Computer and Electronic Engineering) & MEng",
-      "studyType": "Bachelors + Masters",
+      "area": "BEng & MEng — Computer and Electronic Engineering",
       "startDate": "2020",
       "endDate": "2025",
-      "score": "First Class Honours",
-      "courses": ["Reinforcement Learning", "Computer Vision", "Control Systems"]
+      "courses": ["Reinforcement Learning", "Computer Vision"]
     },
     {
       "institution": "TU Delft",
       "location": "Netherlands",
-      "area": "MSc Robotics (Exchange)",
-      "studyType": "Exchange",
+      "area": "MSc (Exchange) — Robotics",
       "startDate": "2024",
       "endDate": "2024",
-      "score": "8.7/10",
       "courses": ["Swarm Robotics", "3D Perception"]
     }
   ],
@@ -106,16 +102,10 @@
       "summary": "Awarded for achieving over 80% final grade in BEng."
     },
     {
-      "title": "Eric and Barbara Kinsella Scholarship",
-      "date": "2021",
-      "awarder": "Jones Engineering",
-      "summary": "€20,000 merit-based academic and leadership scholarship."
-    },
-    {
-      "title": "Laidlaw Leadership and Research Scholarship",
-      "date": "2022",
-      "awarder": "Laidlaw Foundation",
-      "summary": "€10,000 scholarship supporting leadership and research."
+      "title": "Stanford-Smith Prize for Electronic & Computer Engineering",
+      "date": "2023",
+      "awarder": "Trinity College Dublin",
+      "summary": "Highest overall grades in BEng Electronic and Computer Engineering."
     },
     {
       "title": "Dean of Students’ Leadership Award for Volunteering",
@@ -124,47 +114,25 @@
       "summary": "For organizing intervarsity robotics competitions."
     },
     {
-      "title": "Stanford-Smith Prize for Electronic & Computer Engineering",
-      "date": "2023",
-      "awarder": "Trinity College Dublin",
-      "summary": "Highest overall grades in BEng Electronic and Computer Engineering."
+      "title": "Laidlaw Leadership and Research Scholarship",
+      "date": "2022",
+      "awarder": "Laidlaw Foundation",
+      "summary": "€10,000 scholarship supporting leadership and research."
+    },
+    {
+      "title": "Eric and Barbara Kinsella Scholarship",
+      "date": "2021",
+      "awarder": "Jones Engineering",
+      "summary": "€20,000 merit-based academic and leadership scholarship."
     },
     {
       "title": "ER. Stuart Prize for Engineering",
-      "date": "2023",
+      "date": "2021",
       "awarder": "Trinity College Dublin",
       "summary": "Highest grade in Chemistry for Engineering."
     }
   ],
-  "skills": [
-    {
-      "name": "Programming",
-      "icon": "fa-solid fa-code",
-      "keywords": ["Python", "C/C++", "MATLAB", "ARM Assembly", "Verilog"]
-    },
-    {
-      "name": "Robotics & AI",
-      "icon": "fa-solid fa-robot",
-      "keywords": ["ROS", "OpenCV", "PyTorch", "TensorFlow", "MMDetection3D", "Docker"]
-    },
-    {
-      "name": "Domains",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Reinforcement Learning", "Planning & Control", "Computer Vision", "Mapping", "ADAS", "Deep Learning"]
-    }
-  ],
-  "interests": [
-    {
-      "name": "Robotics",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Swarm systems", "Autonomous vehicles", "Assistive robotics"]
-    },
-    {
-      "name": "Machine Learning",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Model-based RL", "Representation learning", "Shared Control", "Human-in-the-loop", "Trajectory prediction"]
-    }
-  ],
+  
   "volunteer": [
     {
       "organization": "Do Sheal",
