@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Officially graduated from Trinity College Dublin :tada:
+I have officially graduated from Trinity College Dublin :tada:
