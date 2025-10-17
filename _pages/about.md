@@ -23,7 +23,7 @@ Prior to my doctoral studies, I received **First Class Honours** in my BEng and 
 
 Outside of studying, I was a long-time member of [Formula Trinity](https://www.formulatrinity.ie/about-autonomous/), where I had the opportunity to take part in **F1Tenth (2021)** and **Formula Student UK (2022, 2023)**. During my time in Formula Trinity, I served as **state-estimation lead** and later as **captain of the driverless team**. Over the years, our team received multiple awards, and I was nominated by my teammates for the **Craig Dawson Award (MVP)** in 2022. Beyond Formula Student, I completed several research internships at **Trinity College Dublin**, **FlyingLabs Madrid**, and **TU Delft**. I also founded my own robotics community-building non-profit, **RacingAI**, which hosted robotics events across Ireland for a year and a half.  
 
-On a personal note, I enjoy food and drink, art, music, and **Brazilian jiu-jitsu**. I also love board games and am currently building a small indie board game studio based in Dublin (currently in stealth mode). Feel free to get in touch! 🎯  
+On a personal note, I enjoy food and drink, art, music, and Brazilian jiu-jitsu. I also love board games and am currently building out a small indie board game studio based in Dublin (currently in stealth mode). Feel free to get in touch! 🎯  
 
 
 <div class="row">
