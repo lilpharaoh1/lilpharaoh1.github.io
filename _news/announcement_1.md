@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have started my 4-year PhD at the University of Edinburgh 🎓
+I have started my 4-year PhD at the University of Edinburgh :mortar_board: :uk:
