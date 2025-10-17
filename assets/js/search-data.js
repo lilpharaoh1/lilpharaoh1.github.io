@@ -35,16 +35,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-i-have-started-my-4-year-phd-at-the-university-of-edinburgh-mortar-board-uk",
           title: 'I have started my 4-year PhD at the University of Edinburgh :mortar_board: :uk:...',
+          description: "",
+          section: "News",},{id: "news-the-paper-i-wrote-from-my-master-s-thesis-was-accepted-to-ieee-icar-2025",
+          title: 'The paper I wrote from my Master’s thesis was accepted to IEEE ICAR...',
           description: "",
           section: "News",},{
       id: 'light-theme',
