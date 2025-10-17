@@ -41,8 +41,8 @@ ninja.data = [{
           section: "News",},{id: "news-the-paper-i-wrote-from-my-master-s-thesis-was-accepted-to-ieee-icar-2025",
           title: 'The paper I wrote from my Master’s thesis was accepted to IEEE ICAR...',
           description: "",
-          section: "News",},{id: "news-officially-graduated-from-trinity-college-dublin-tada",
-          title: 'Officially graduated from Trinity College Dublin :tada:',
+          section: "News",},{id: "news-i-have-officially-graduated-from-trinity-college-dublin-tada",
+          title: 'I have officially graduated from Trinity College Dublin :tada:',
           description: "",
           section: "News",},{
       id: 'light-theme',
