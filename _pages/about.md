@@ -54,6 +54,6 @@ On a personal note, I enjoy food and drink, art, music, and Brazilian jiu-jitsu.
         {% include figure.liquid loading="eager" path="assets/img/8747_720.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<!-- <div class="caption">
     Some great memories from over the years.
-</div>
+</div> -->
