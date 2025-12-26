@@ -34,7 +34,7 @@ ninja.data = [{
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/the_godfather.html";
             },},{id: "news-i-have-started-my-4-year-phd-at-the-university-of-edinburgh-mortar-board-uk",
           title: 'I have started my 4-year PhD at the University of Edinburgh :mortar_board: :uk:...',
           description: "",
