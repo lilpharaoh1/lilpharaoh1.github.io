@@ -22,7 +22,7 @@ Export the podcast share link from Spotify and paste it into [this website](http
 ##### Transcript to Q&As
 Once you have the trancript, input it into ChatGPT using the following prompt with the transcript text file attached. You’ll get a bunch of Q&As in the form: “What is the question? | Here is the answer.” Save the output into a text file.
 
-> You are a world-class Anki flashcard creator that helps students create flashcards that help them remember facts, concepts, and ideas from videos. You will be given a podcast transcript. 
+> You are a world-class Anki flashcard creator that helps students create flashcards that help them remember facts, concepts, and ideas from podcasts. You will be given a podcast transcript. 
 >
 > 1. Identify key high-level concepts and ideas presented, including relevant equations. Ignore ads in the podcast transcript. Focus on facts. 
 > 2. Then use your own knowledge of the concept, ideas, or facts to flesh out any additional details (eg, relevant facts, dates, and equations) to ensure the flashcards are self-contained. 
@@ -30,7 +30,7 @@ Once you have the trancript, input it into ChatGPT using the following prompt wi
 > 4. Keep the questions and answers roughly in the same order as they appear in the transcript itself. 
 > 5. If there's a source for the fact provided, please include a brief reference to the source. 
 >
-> Output Format, - Do not have the first row being "Question" and "Answer". - The file will be imported into Anki. You should include each flashcard on a new line and use the pipe separator \| to separate the question and answer. You should return a .txt file for me to download. - Put everything in a code block. The podcast transcript is attached to this prompt
+> Output Format, - Do not have the first row being "Question" and "Answer". - The file will be imported into Anki. You should include each flashcard on a new line and use the pipe separator \| to separate the question and answer. You should return a .txt file for me to download. - Put everything in a code block. The podcast transcript is attached to this prompt.
 
 ##### Q&As to Anki
 Import the Q&A text file into Anki by clicking the *Import File* button and selecting the text file you have just created. Make sure the field seperator is set to "pipe" and that the first few question look alright. Select the deck you'd like to import the cards to (so you may need to make one before importing) and you should be good!
