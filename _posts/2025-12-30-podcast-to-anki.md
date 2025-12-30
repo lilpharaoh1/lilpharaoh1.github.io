@@ -15,10 +15,10 @@ Here’s a little tool chain I gathered together for turning podcasts on Spotify
 Export the podcast share link from Spotify and paste it into [this website](https://podcastmp3.com/). 
 
 ### Audio to Transcript
-[This tool](https://evernote.com/ai-transcribe?utm_source=bing_ads&t_s=bing&t_cid=486538556&t_agid=1236951695996363&t_crid=kwd-77309867476291:loc-92&t_crname=text%20transcribe&t_match_type=p&t_network=o&t_device=c&t_gcid=&t_validation=486538556&msclkid=4385ff14a86e1f8fdd5d978915fb292d) from Evernote gets the transcript of the audio clip. I think there’s a limit of an hour, so if the podcast is too long split it up using whatever free audio editor comes with your machine.
+[This tool](https://evernote.com/ai-transcribe?utm_source=bing_ads&t_s=bing&t_cid=486538556&t_agid=1236951695996363&t_crid=kwd-77309867476291:loc-92&t_crname=text%20transcribe&t_match_type=p&t_network=o&t_device=c&t_gcid=&t_validation=486538556&msclkid=4385ff14a86e1f8fdd5d978915fb292d) from Evernote gets the transcript of the audio clip. I think there’s a limit of an hour, so if the podcast is too long split it up using whatever free audio editor comes with your machine. Save the output to a text file (you can use Notepad or [this tool](https://texteditor.co/) if you need).
 
 ### Transcript to Q&As
-Once you have the trancript, input it into ChatGPT with the following prompt. You’ll get a bunch of Q&As in the form: “What is the question? pipe. Here is the answer.” Save the output into a text file (you can use [this tool](https://texteditor.co/) if you need).
+Once you have the trancript, input it into ChatGPT using the following prompt with the transcript text file attached. You’ll get a bunch of Q&As in the form: “What is the question? | Here is the answer.” Save the output into a text file.
 
 > You are a world-class Anki flashcard creator that helps students create flashcards that help them remember facts, concepts, and ideas from videos. You will be given a podcast transcript. 
 >
