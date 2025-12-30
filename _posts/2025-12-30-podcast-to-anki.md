@@ -9,6 +9,8 @@ description: Tool chain for converting podcasts to Anki flashcards
 
 Here’s a little tool chain I gathered together for turning podcasts on Spotify into Anki flashcards. I’ve found it useful for solidifying my knowledge on some history topics I find important enough to warrant a bit of extra work. The same tool chain might be adpated and used for YouTube videos, lecture notes, and things like that.
 
+This tool chain was largely inspired by [this prompt](https://ramjad.notion.site/10x-Anki-Prompts-1e522ee862c880a68d8bd19c0dca015d) that makes Anki-compatible Q&As from YouTube videos. Hope you enjoy!
+
 ***
 
 ### Podcast to Audio
@@ -28,13 +30,8 @@ Once you have the trancript, input it into ChatGPT using the following prompt wi
 > 4. Keep the questions and answers roughly in the same order as they appear in the transcript itself. 
 > 5. If there's a source for the fact provided, please include a brief reference to the source. 
 >
->Output Format, - Do not have the first row being "Question" and "Answer". - The file will be imported into Anki. You should include each flashcard on a new line and use the pipe separator | to separate the question and answer. You should return a .txt file for me to download. - Put everything in a code block. The podcast transcript is attached to this prompt
+> Output Format, - Do not have the first row being "Question" and "Answer". - The file will be imported into Anki. You should include each flashcard on a new line and use the pipe separator \| to separate the question and answer. You should return a .txt file for me to download. - Put everything in a code block. The podcast transcript is attached to this prompt
 
 ### Q&As to Anki
 Import the Q&A text file into Anki by clicking the *Import File* button and selecting the text file you have just created. Make sure the field seperator is set to "pipe" and that the first few question look alright. Select the deck you'd like to import the cards to (so you may need to make one before importing) and you should be good!
-
-*** 
-
-This tool chain was largely inspired by [this prompt](https://ramjad.notion.site/10x-Anki-Prompts-1e522ee862c880a68d8bd19c0dca015d) that makes Anki-compatible Q&As from YouTube videos. Hope you enjoy!
-
 
