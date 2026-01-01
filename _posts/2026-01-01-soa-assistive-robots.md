@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sense of Agency and Assistive Robotics
+title: A Missing Piece in Assistive Robotics
 date: 2026-01-01
-description: A brief-ish piece on a concept from neuropsychology and HRI.   
+description: A long-ish read on a concept from neuropsychology and HRI  
 # tags: formatting links
 # categories: sample-posts
 ---
