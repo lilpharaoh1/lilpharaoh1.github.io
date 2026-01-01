@@ -11,7 +11,7 @@ A few months ago, I started my PhD at the newly founded Centre for AI in Assisti
 
 Rather broadly, I am looking at developing shared autonomy with robots. Essentially, how do we build robotic systems that allow humans to augment or extend their ability? Of particular interest to me is how we do this while maintaining the human sense of being in control and in the “decision-making chair.” Trying to answer these questions, roboticists alike often neglect to consider directly a critical element of these technologies. That element is the user’s sense of agency.
 
-In this blog, I’m going to briefly answer what sense of agency actually is, why we should even care about it, and what roboticists like myself should do going forward with this information in mind. This blog is not a literature review. It’s not a perspective paper. It is primarily aimed at people who are interested in robots and human-centred AI, irrespective of background or prior knowledge. And I hope it’s not too bad for you folks that aren’t either.
+In this blog, I’m going to briefly outline what sense of agency actually is, why we should even care about it, and what roboticists like myself should do going forward with this information in mind. This blog is not a literature review. It’s not a perspective paper. It is primarily aimed at people who are interested in robots and human-centred AI, irrespective of background or prior knowledge. I also hope it’s not too bad for you folks that aren’t interested in either.
 
 ***
 
