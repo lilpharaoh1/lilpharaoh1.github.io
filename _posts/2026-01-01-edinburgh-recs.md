@@ -3,8 +3,7 @@ layout: post
 title: Various Edinburgh Recommendations
 date: 2026-01-01
 # description:   
-# tags: formatting links
-# categories: sample-posts
+# tags: # e.g. notes
 ---
 
 Most of these I can back from my own experience, while others are recommendations from people I think would have a good opinion. If they’re good, your welcome. It not, it was someone else.

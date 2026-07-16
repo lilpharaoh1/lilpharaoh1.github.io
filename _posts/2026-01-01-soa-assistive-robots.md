@@ -3,8 +3,7 @@ layout: post
 title: A Missing Piece in Assistive Robotics
 date: 2026-01-01
 description: A long-ish read on a concept from neuropsychology and HRI  
-# tags: formatting links
-# categories: sample-posts
+# tags: # e.g. notes
 ---
 
 A few months ago, I started my PhD at the newly founded Centre for AI in Assistive Autonomy at the University of Edinburgh. Recently, we held our “Centre Day” where we shared the mission of the lab with the wider community: “How can we go from human-level intelligence to human-level collaboration with robots?”. In that mission lies my own work.

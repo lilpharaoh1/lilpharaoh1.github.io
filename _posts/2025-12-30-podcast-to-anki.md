@@ -3,8 +3,7 @@ layout: post
 title: Podcast to Anki
 date: 2025-12-30
 description: Tool chain for converting podcasts to Anki flashcards
-# tags: formatting links
-# categories: sample-posts
+# tags: # e.g. notes
 ---
 
 Here’s a little tool chain I gathered together for turning podcasts on Spotify into Anki flashcards. I’ve found it useful for solidifying my knowledge on some history topics I find important enough to warrant a bit of extra work. The same tool chain might be adpated and used for YouTube videos, lecture notes, and things like that.
