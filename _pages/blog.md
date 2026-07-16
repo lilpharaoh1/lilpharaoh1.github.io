@@ -29,21 +29,37 @@ pagination:
   </div>
   {% endif %}
 
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
+{% comment %}
+  Only count display_tags that actually have posts: jekyll-archives only
+  generates a page for a tag once something is tagged with it, so listing an
+  unused tag would link to a 404. The wrapper is gated on the count too,
+  since .tag-category-list draws a border and would otherwise show as a
+  stray divider when every display tag is still unused.
+{% endcomment %}
+{% assign visible_tag_count = 0 %}
+{% for tag in site.display_tags %}
+  {% if site.tags[tag] %}
+    {% assign visible_tag_count = visible_tag_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if visible_tag_count > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
+      {% assign shown_tags = 0 %}
       {% for tag in site.display_tags %}
         {% if site.tags[tag] %}
+          {% if shown_tags > 0 %}
+            <p>&bull;</p>
+          {% endif %}
           <li>
             <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
           </li>
-          {% unless forloop.last %}
-            <p>&bull;</p>
-          {% endunless %}
+          {% assign shown_tags = shown_tags | plus: 1 %}
         {% endif %}
       {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
+      {% if site.display_categories.size > 0 and visible_tag_count > 0 %}
         <p>&bull;</p>
       {% endif %}
       {% for category in site.display_categories %}
