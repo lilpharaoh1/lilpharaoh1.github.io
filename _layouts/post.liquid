@@ -87,6 +87,15 @@ layout: default
     {% endif %}
   {% endif %}
 
+  {% comment %}
+    posts only: this layout is shared with the news collection, whose items
+    should not carry a subscribe form.
+  {% endcomment %}
+  {% if site.newsletter.enabled and page.collection == 'posts' %}
+    <hr>
+    {% include newsletter.liquid center=true %}
+  {% endif %}
+
   {% if site.disqus_shortname and page.disqus_comments %}
     {% include disqus.liquid %}
   {% endif %}

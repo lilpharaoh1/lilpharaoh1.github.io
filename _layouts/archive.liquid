@@ -35,4 +35,9 @@ layout: default
       </table>
     </div>
   </article>
+
+  {% if site.newsletter.enabled and page.collection_name == 'posts' %}
+    <hr>
+    {% include newsletter.liquid center=true %}
+  {% endif %}
 </div>
