@@ -29,6 +29,10 @@ pagination:
   </div>
   {% endif %}
 
+{% if site.newsletter.enabled %}
+  {% include newsletter.liquid center=true %}
+{% endif %}
+
 {% comment %}
   Only count display_tags that actually have posts: jekyll-archives only
   generates a page for a tag once something is tagged with it, so listing an
