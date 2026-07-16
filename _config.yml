@@ -137,8 +137,8 @@ giscus:
 # Subscribe form in the footer, posting straight to Buttondown.
 # Set username to your Buttondown account name, then flip enabled to true.
 newsletter:
-  enabled: false
-  username: # your buttondown username, from https://buttondown.com/settings
+  enabled: true
+  username: eymoustafa # your buttondown username, from https://buttondown.com/settings
   prompt: "Get an email when I post something new:"
 
 # -----------------------------------------------------------------------------
