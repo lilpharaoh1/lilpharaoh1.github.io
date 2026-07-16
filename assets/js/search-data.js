@@ -44,6 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-have-officially-graduated-from-trinity-college-dublin-tada",
           title: 'I have officially graduated from Trinity College Dublin :tada:',
           description: "",
+          section: "News",},{id: "news-i-attended-the-pro-device-prototyping-summer-school-at-lancaster-university-hammer-and-wrench",
+          title: 'I attended the pro² Device Prototyping Summer School at Lancaster University :hammer_and_wrench:',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
