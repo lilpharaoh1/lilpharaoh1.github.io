@@ -73,8 +73,10 @@ layout: default
       </div>
     {% endif %}
 
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
+    {% comment %}
+      Upstream al-folio shows the subscribe form here whenever the footer is
+      pinned, since the fixed footer has nowhere to put it. Deliberately
+      dropped: the form belongs only at the foot of the blog pages.
+    {% endcomment %}
   </article>
 </div>
