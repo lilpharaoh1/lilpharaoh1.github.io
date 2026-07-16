@@ -1204,6 +1204,12 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
+.newsletter-form-label {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
 .newsletter-form-input,
 .bibsearch-form-input {
   color: var(--global-newsletter-text-color);

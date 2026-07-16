@@ -4,15 +4,24 @@
     style="margin: 20px"
   {% endif %}
 >
+  <label
+    class="newsletter-form-label"
+    for="bd-email"
+    style="text-align: {% if include.left %}left{% elsif include.right %}right{% else %}center{% endif %}"
+  >{{ site.newsletter.prompt | default: "Get an email when I post something new:" }}</label>
+
   <form
     class="newsletter-form"
-    action="https://app.loops.so/api/newsletter-form/{{ site.newsletter.endpoint }}"
-    method="POST"
+    action="https://buttondown.com/api/emails/embed-subscribe/{{ site.newsletter.username }}"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/{{ site.newsletter.username }}', 'popupwindow')"
     style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
   >
     <input
       class="newsletter-form-input"
-      name="newsletter-form-input"
+      id="bd-email"
+      name="email"
       type="email"
       placeholder="user@example.com"
       required=""
@@ -25,44 +34,5 @@
     >
       subscribe
     </button>
-
-    <button
-      type="button"
-      class="newsletter-loading-button"
-      style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
-    >
-      Please wait...
-    </button>
   </form>
-
-  <div
-    class="newsletter-success"
-    style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
-  >
-    <p class="newsletter-success-message">You're subscribed!</p>
-  </div>
-
-  <div
-    class="newsletter-error"
-    style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
-  >
-    <p class="newsletter-error-message">Oops! Something went wrong, please try again</p>
-  </div>
-
-  <button
-    class="newsletter-back-button"
-    type="button"
-    onmouseout='this.style.textDecoration="none"'
-    onmouseover='this.style.textDecoration="underline"'
-  >
-    &larr; Back
-  </button>
 </div>
-
-<noscript>
-  <style>
-    .newsletter-form-container {
-      display: none;
-    }
-  </style>
-</noscript>
