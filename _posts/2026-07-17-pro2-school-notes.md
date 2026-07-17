@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Scaling Hardware — Notes from the Pro² Summer School
+title: Notes from the pro² Device Prototyping Summer School
 date: 2026-07-17
-description: Rough notes on taking hardware from one unit to thousands — PCBs, manufacturing, compliance, and a few good tricks
+description: PCBs, manufacturing, compliance, and a few good tricks
 # tags: # notes
 ---
 
-Below are my notes from the [Pro² Device Prototyping Summer School](https://prosquared.org/event/device-prototyping-summer-school-2026/) (kindly edited by Claude). The notes are rough, so if you would like clarification on anything, please reach out. Or better yet, reach out to the speakers themselves or the [Pro² network](https://prosquared.org/join/). Enjoy!
+Below are my notes from the [pro² Device Prototyping Summer School](https://prosquared.org/event/device-prototyping-summer-school-2026/) (kindly edited by Claude). The notes are rough, so if you would like clarification on anything, please reach out. Or better yet, reach out to the speakers themselves or the [pro² network](https://prosquared.org/join/). Enjoy!
 
 ***
 
@@ -15,7 +15,7 @@ Below are my notes from the [Pro² Device Prototyping Summer School](https://pro
 **Goal of the school:** teaching how to scale from the first unit, to tens, to thousands of units.
 
 - MazeMap → 3D map of the campus.
-- Pro² network.
+- pro² network.
 - "Isotyping" → making tens/hundreds of things (as opposed to one-off prototyping).
 - Need for tools that support this, rather than singular prototyping.
 
@@ -191,7 +191,7 @@ Testing:
 ### Panel Discussion
 
 - **How much does testing and certification cost, even on a shoestring?** In the past, basic EMC testing cost ~$1,000 USD; more now. You have to know exactly what to ask for to save money — maybe this is where you consult. Testing in Shenzhen saves a lot. Emphasis on knowing your target market → streamlines testing/compliance. UL certified → commercially you need this (e.g. for Disney).
-- **Where to find resources to self-certify properly?** Suggestion: find someone — ping Simon Monk or someone else with a product; the Pro² network. There's a lot more you have to do than people do initially, and that's okay — companies grow into full compliance.
+- **Where to find resources to self-certify properly?** Suggestion: find someone — ping Simon Monk or someone else with a product; the pro² network. There's a lot more you have to do than people do initially, and that's okay — companies grow into full compliance.
 - In the US you have to file an 83(b) within 90 days → you defer all taxes until you sell.
 - Adafruit → argue they're a "module," not a "product," so they don't certify.
 
