@@ -181,7 +181,7 @@ Conformity assessment:
 - Concept of participatory sensing → democratised research.
 - Long-tail research problems → devices that enable this research to happen.
 
-Testing:
+### Testing — Steve Hodges
 - **RF testing** → you can get a network analyser and spectrum analyser cheaply as prep for EMC testing → saves a lot of time and money.
 - TEM cells with these can test how your device affects other devices "on the shelf."
 - Near-field probes → debug where exactly the RF problems are coming from.
@@ -190,12 +190,19 @@ Testing:
 
 ### Panel Discussion
 
-- **How much does testing and certification cost, even on a shoestring?** In the past, basic EMC testing cost ~$1,000 USD; more now. You have to know exactly what to ask for to save money — maybe this is where you consult. Testing in Shenzhen saves a lot. Emphasis on knowing your target market → streamlines testing/compliance. UL certified → commercially you need this (e.g. for Disney).
-- **Where to find resources to self-certify properly?** Suggestion: find someone — ping Simon Monk or someone else with a product; the pro² network. There's a lot more you have to do than people do initially, and that's okay — companies grow into full compliance.
+**How much does testing and certification cost, even on a shoestring?** 
+- In the past, basic EMC testing cost ~$1,000 USD; more now. 
+- You have to know exactly what to ask for to save money — maybe this is where you consult. 
+- Testing in Shenzhen saves a lot. 
+- Emphasis on knowing your target market → streamlines testing/compliance. 
+- UL certified → commercially you need this (e.g. for Disney).
+**Where to find resources to self-certify properly?** 
+- Suggestion: find someone — ping Simon Monk or someone else with a product; the pro² network. 
+- There's a lot more you have to do than people do initially, and that's okay — companies grow into full compliance.
 - In the US you have to file an 83(b) within 90 days → you defer all taxes until you sell.
-- Adafruit → argue they're a "module," not a "product," so they don't certify.
+- Adafruit →  argue they're a "module," not a "product," so they don't certify.
 
-Managing a product line:
+**How to manage a product line?**
 - **Provisional patent** → not a patent, way cheaper. You can file a full patent later and get priority based on the provisional's date. Lasts a year, then disappears; you can keep re-filing. You can also sell provisional patents. They aren't disclosed to the public.
 - Sometimes patents aren't worth messing with → focus on the product instead.
 - Alternative strategy: make the idea public so nobody else can patent it and stop you (already in the public domain).
