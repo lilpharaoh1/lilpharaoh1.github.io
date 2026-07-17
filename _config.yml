@@ -139,7 +139,7 @@ giscus:
 newsletter:
   enabled: true
   username: eymoustafa # your buttondown username, from https://buttondown.com/settings
-  prompt: "Get an email when I post something new:"
+  prompt: "Subscribe for hand-delivered notifications:"
 
 # -----------------------------------------------------------------------------
 # Collections
